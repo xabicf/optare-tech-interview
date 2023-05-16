@@ -1,4 +1,4 @@
-package com.optare.swapi;
+package com.optare.swapi.planets.entities;
 
 public class Planet {
     private String name;

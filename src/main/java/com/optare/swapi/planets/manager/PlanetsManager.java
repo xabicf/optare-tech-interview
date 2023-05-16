@@ -1,11 +1,8 @@
-package com.optare.swapi;
+package com.optare.swapi.planets.manager;
 
+import com.optare.swapi.planets.entities.Planet;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Component;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.ResponseBody;
-import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
 
 @Component

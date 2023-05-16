@@ -1,5 +1,10 @@
-package com.optare.swapi;
+package com.optare.swapi.species.manager;
 
+import com.optare.swapi.planets.entities.Planet;
+import com.optare.swapi.planets.manager.PlanetsManager;
+import com.optare.swapi.species.entities.Species;
+import com.optare.swapi.species.entities.SpeciesResponse;
+import com.optare.swapi.species.entities.SpeciesWithPlanet;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 

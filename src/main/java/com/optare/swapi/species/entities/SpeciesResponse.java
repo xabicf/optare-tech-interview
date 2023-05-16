@@ -1,4 +1,4 @@
-package com.optare.swapi;
+package com.optare.swapi.species.entities;
 
 public class SpeciesResponse {
     private Species[] results;

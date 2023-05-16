@@ -1,20 +1,18 @@
-package com.optare.swapi;
+package com.optare.swapi.species.entities;
 
-import com.fasterxml.jackson.annotation.JsonAlias;
-
-public class Species {
+public class SpeciesWithPlanet {
     private String name;
     private String classification;
     private String designation;
 
-    private String homeworld;
+    private String planet;
 
-    public String getHomeworld() {
-        return homeworld;
+    public String getPlanet() {
+        return planet;
     }
 
-    public void setHomeworld(String homeworld) {
-        this.homeworld = homeworld;
+    public void setPlanet(String planet) {
+        this.planet = planet;
     }
 
     public String getName() {

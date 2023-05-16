@@ -1,5 +1,8 @@
-package com.optare.swapi;
+package com.optare.swapi.species.controller;
 
+import com.optare.swapi.species.manager.SpeciesManager;
+import com.optare.swapi.species.entities.SpeciesResponse;
+import com.optare.swapi.species.entities.SpeciesWithPlanet;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
